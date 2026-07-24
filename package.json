@@ -1,0 +1,27 @@
+{
+  "name": "f1-2026-ai-assistant",
+  "version": "1.0.0",
+  "description": "An AI assistant that answers questions about the 2026 Formula 1 season using live data from public APIs. Built for AI Homework 1.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stdxrk-company/Internship_AI_assistant.git"
+  },
+  "keywords": ["formula1", "f1", "gemini", "ai-assistant"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stdxrk-company/Internship_AI_assistant/issues"
+  },
+  "homepage": "https://github.com/stdxrk-company/Internship_AI_assistant#readme",
+  "dependencies": {
+    "@google/genai": "^2.13.0"
+  }
+}
